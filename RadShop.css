@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.backgroundcolor-ofthesite {
+    background-color: black;
+}
+
+header {
+    width: 80%;
+    height: 110px;
+    margin: auto;
+    background-color: black;
+    /* es soll noch wahrscheinlich geändert werden, statt margin auto einfach margin left eines großen Container dass alle undere container aud einer Höche zueinnander sind*/
+    display: flex;
+}
+
+.logo-style-container {
+    width: 16%;
+    height: 124px;
+    margin-left: 20px;
+}
+
+.text-style-logo {
+    color: white;
+    margin: auto;
+}
+
+.header-maincontainer-2 {
+    width: 80%;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section-1 {
+    width: 60%;
+    height: 124px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-section-1 p {
+    color: white;
+    cursor: pointer;
+}
+
+.header-section-2 {
+    width: 20%;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+.section-maincontainer-title {
+    width: 80%;
+    height: 540px;
+    margin: auto;
+    display: flex;
+}
+
+.main-title-container {
+    width: 50%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 10px;
+}
+
+.main-title-container h1 {
+    color: white;
+}
+
+.main-title-container h2 {
+    color: white;
+}
+
+.title-text-style {
+    font-size: 60px;
+}
+
+.title-text-style-2 {
+    font-size: 22px;
+}
+
+.consult-button {
+    border: 5px solid #FF7A00;
+    border-radius: 10px;
+    width: 35%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.wechsel-bild {
+    width: 60%;
+    height: 540px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-border {
+    width: 80%;
+    height: 529px;
+    border: 8px solid orange;
+    border-right: none;
+    z-index: 1;
+}
+
+.img-absolute {
+    width: 80%;
+    height: 529px;
+    z-index: 2;
+}
+
+.img-absolute img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.section-maincontainer-title-2 {
+    width: 100%;
+    height: 504px;
+    border-style: groove;
+
+}
+
+.main-service-position-1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-style: groove;
+}
+
+.main-service-position-1 h1 {
+    width: 100%;
+    height: 37px;
+}
+
+.service-position-1-border {
+    width: 20%;
+    height: 37px;
+    border-bottom: 2px solid orange;
+
+}
+
+.main-service-position-2{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-style: groove;
+    gap: 20px;
+}
+
+.service-position-border-1 {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: groove;
+}
+
+
+.service-position-border-1 img {
+    width: 40%;
+    height: 100px;
+}
+
+.service-position-border-1 p {
+    width: 60%;
+    height: 100px;
+}
